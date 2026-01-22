@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Clocks & Timers</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html">Clock</a>
+    <a href="timer.html">Timer</a>
+    <a href="stopwatch.html">Stopwatch</a>
+  </nav>
+
+  <main class="container">
+    <h1>Privacy Policy</h1>
+
+    <section class="tool" style="text-align:left;">
+      <h2 style="margin-bottom:0.75rem;">Overview</h2>
+      <p style="margin-bottom:1rem;">
+        This website is designed to work without collecting personal information. You can use the clock, timer
+        and stopwatch without creating an account.
+      </p>
+
+      <h2 style="margin-bottom:0.75rem;">Data we collect</h2>
+      <p style="margin-bottom:1rem;">
+        We do not collect or store personal data on our servers.
+      </p>
+
+      <h2 style="margin-bottom:0.75rem;">Local device storage (preferences)</h2>
+      <p style="margin-bottom:1rem;">
+        If you choose to enable features like saving your 12/24-hour preference or recent timer settings,
+        those preferences may be stored locally in your browser (for example using localStorage).
+        This data stays on your device and is not sent to us.
+      </p>
+
+      <h2 style="margin-bottom:0.75rem;">Cookies</h2>
+      <p style="margin-bottom:1rem;">
+        This site does not set cookies for its core functionality.
+      </p>
+
+      <h2 style="margin-bottom:0.75rem;">Advertising</h2>
+      <p style="margin-bottom:1rem;">
+        We may display ads in the future to support this website. If we use Google AdSense or similar providers,
+        those providers may use cookies or similar technologies to measure ad performance and/or show relevant ads.
+        If and when advertising is enabled, this policy will be updated to explain what technologies are used and how
+        you can manage your choices.
+      </p>
+
+      <h2 style="margin-bottom:0.75rem;">Contact</h2>
+      <p style="margin-bottom:1rem;">
+        If you have any questions about privacy on this site, please contact us via the Contact page.
+      </p>
+
+      <p style="color:#666; font-size:0.95rem;">
+        Last updated: <span id="lastUpdated"></span>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      <a href="about.html">About</a> ·
+      <a href="privacy.html">Privacy</a> ·
+      <a href="contact.html">Contact</a>
+    </p>
+  </footer>
+
+  <script>
+    // Simple, non-tracking "last updated" display (optional)
+    document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>

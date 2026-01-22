@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Countdown Timer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="A simple online countdown timer with hours, minutes and seconds. Easy to use on desktop and mobile." />
+</head>
+
+<body>
+  <nav class="nav">
+    <a href="index.html">Clock</a>
+    <a href="timer.html" class="active">Timer</a>
+    <a href="stopwatch.html">Stopwatch</a>
+  </nav>
+
+  <h1>Timer</h1>
+
+  <main class="container">
+    <section class="tool">
+      <div id="timerDisplay">00:00:00</div>
+
+      <div class="row">
+        <input type="number" id="hours" placeholder="Hours" min="0" />
+        <input type="number" id="minutes" placeholder="Minutes" min="0" />
+        <input type="number" id="seconds" placeholder="Seconds" min="0" max="59" />
+      </div>
+
+      <div class="buttons">
+        <button id="startTimer">Start</button>
+        <button id="resetTimer">Reset</button>
+      </div>
+    </section>
+
+<section class="ad-slot">
+  <p class="ad-label">Advertisement</p>
+  <div class="ad-box"></div>
+</section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Sam Britcher</p>
+    <p>
+      <a href="about.html">About</a> ·
+      <a href="privacy.html">Privacy</a> ·
+      <a href="contact.html">Contact</a>
+    </p>
+  </footer>
+
+  <script src="js/timer.js"></script>
+</body>
+</html>
