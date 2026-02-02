@@ -297,7 +297,7 @@ input:focus-visible {
 .info li {
   margin: 0.4rem 0;
   color: var(--text);
-  text-align: left;
+  text-align: center;
 }
 
 .note {
