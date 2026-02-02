@@ -265,6 +265,49 @@ input:focus-visible {
   }
 }
 
+/* Info sections to increase clarity + AdSense-friendly context */
+.info {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4) var(--space-3);
+  box-shadow: var(--shadow);
+  text-align: left;
+  margin-top: var(--space-4);
+}
+
+.info h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.info p {
+  margin: 0 0 0.9rem;
+  color: var(--text);
+  text-align: left;
+}
+
+.info ul {
+  margin: 0.25rem 0 0.5rem 1.2rem;
+  padding: 0;
+  text-align: left;
+}
+
+.info li {
+  margin: 0.4rem 0;
+  color: var(--text);
+  text-align: left;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0.25rem 0 0;
+  text-align: left;
+}
+
+
 /* =========================
    Footer
 ========================= */
